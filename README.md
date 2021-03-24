@@ -1,2 +1,2 @@
 # Classification-Iris
-[Link to application](https://tarantuviez-4.herokuapp.com/)
+[Link to application](https://tarantuviez-2.herokuapp.com/)
