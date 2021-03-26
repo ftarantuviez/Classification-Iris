@@ -4,6 +4,13 @@ import pickle
 from sklearn import datasets
 
 st.set_page_config(page_title='Simple Iris Classification', page_icon="./f.png")
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.write("""
 # Simple Iris Flower Prediction App
@@ -44,3 +51,13 @@ st.write(iris.target_names[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+# This app repository
+
+st.write("""
+---
+## App repository
+
+[Github](https://github.com/ftarantuviez/Classification-Iris)
+""")
+# / This app repository
